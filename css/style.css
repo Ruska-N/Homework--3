@@ -1,0 +1,72 @@
+:root {
+    --main-color: #03045E;
+}
+
+/* header styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 30px;
+}
+img {
+    width: 100px;
+}
+nav ul {
+    display: flex;
+    gap: 140px;
+    justify-content: center;
+}
+nav ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #03045E;
+}
+.btn {
+    display: inline-block;
+    padding: 5px 25px;
+    background: #03045E;
+    color: white;
+    border-radius: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+.btn:hover {
+    transform: scale(1.2);
+}
+
+/* section styles */
+.section-1 {
+    max-width: 1254px;
+    margin: 0 auto;
+    padding: 58px 0 44px 0;
+}
+h1 {
+    font-size: 64px;
+    font-weight: bold;
+    color: var(--main-color);
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+}
+.card-1 {
+    width: 300px;
+    border: 1px solid var(--main-color);
+    border-radius: 20px 20px 10px 10px;
+    padding: 20px;
+    box-shadow: 0px 10px 4px rgba(3, 4, 94, 0.25)
+}
+.card-descr h2 {
+    font-size: 24px;
+    margin-top: 12px;
+}
+.card-descr h6 {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.img img {
+    width: 260px;
+    height: 250px;
+}
+
